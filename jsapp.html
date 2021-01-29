@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jsapp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Important Events</title>
+  </head>
+  <body>
+    <header>
+      <button class="clear"><i class="fa fa-refresh"></i></button>
+      <h1>Important Event</h1>
+    </header>
+     <section>
+      <div class="inputs">
+        <h2>Event name</h2>
+        <input id="eventtitle" type="text" onfocus="this.value=''" placeholder="Enter your event name">
+        <br>
+        <hr>
+        <h2>Date and Time of the Event</h2>
+        <input id="eventDateAndTime" type="datetime-local" onfocus="this.value=''">
+        <br>
+        <hr>
+        <button id="insert" type="button" name="button">Click</button>
+      </div>
+    </section>
+    <section id="allEvents">
+      <h2>Events:</h2>
+      <ul>
+
+
+
+      </ul>
+    </section>
+<script src="jsapp.js" type="module"></script>
+<script src="jsapp2.js" type="module"></script>
+  </body>
+</html>

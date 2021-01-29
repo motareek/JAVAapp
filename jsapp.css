@@ -1,0 +1,64 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to left, #45df6b , #1c1d1f);
+}
+  
+  h1
+  {
+    margin:5% 0 0 40%;
+  }
+  h2,ul
+  {
+    margin-left: 30%;
+  }
+  .clear
+  {
+    margin:1% 0 0 95%;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color:#45df6b;
+    color: black;
+  }
+  #eventtitle,#eventDateAndTime{
+    margin-left: 40%;
+  }
+  #insert
+  {
+    margin-left: 45%;
+    border-radius: 20px;
+    font-family: monospace;
+    width: 80px;
+    font-size: 20px;
+    background-color:black;
+    color:#45df6b;
+    cursor: pointer;
+  }
+  input
+  {
+    border-radius: 10px;
+    font-size: 17px;
+    padding:5px 5px 5px 20px;
+  }
+  ul li
+  {
+    list-style: none;
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 15px;
+    border-width:5px;
+    border-style:groove;
+    width: 680px;
+    padding: 5px 0 5px 15px;
+    background-color:#45df6b;
+    color:black;
+  }
+  
+  .cancelbutton
+  {
+    position: absolute;
+    right: 355px;
+    font-size: 20px;
+  }
